@@ -2,7 +2,7 @@
 架空のオーガニック食品サービス「スグ食べ」のランディングページです。
 
 ## URL
-https://github.com/Miki-wa/sugutabe-lp/
+https://miki-wa.github.io/sugutabe-lp/
 
 ## 概要
 スクール課題として、ヒアリング内容をもとに制作したランディングページです。  
