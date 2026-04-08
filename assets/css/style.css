@@ -65,7 +65,7 @@ img {
     background: #6B8F71;
 }
 
-/* .btn pc */
+/* common pc */
 @media screen and (min-width:769px) {
     .btn {
         font-size: 1.8rem;
@@ -74,6 +74,10 @@ img {
 
     .btn span {
         font-size: 1.2rem;
+    }
+
+    .spBr {
+        display: none;
     }
 } /* px 769px */
 
@@ -96,7 +100,7 @@ header
         'Shippori Mincho',
         Arial, 
         sans-serif;
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     color: #fff;
     line-height: 1.45;
     margin-bottom: 22px;
@@ -132,10 +136,6 @@ header
         margin-bottom: 28px;
     }
 
-    .spBr {
-        display: none;
-    }
-
     .header__logoImg img {
     width: 200px;
     height: auto;
@@ -155,7 +155,7 @@ about
         'Shippori Mincho',
         Arial, 
         sans-serif;
-    font-size: 3.2rem;
+    font-size: 2.2rem;
     color: #ffa500;
     line-height: 1.45;
     display: flex;
@@ -213,7 +213,7 @@ reason
         'Shippori Mincho',
         Arial, 
         sans-serif;
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     color: #fff;
     line-height: 1.45;
     margin-bottom: 22px;
@@ -342,7 +342,7 @@ trial
         'Shippori Mincho',
         Arial, 
         sans-serif;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     color: #ffa500;
     line-height: 1.5;
     margin-bottom: 60px;
@@ -395,11 +395,6 @@ trial
     display: inline-block;
 }
 
-.trial__txt {
-    display: inline-flex;
-    align-items: end;
-}
-
 /* .trial pc */
 @media screen and (min-width:769px) {
     .section--trial {
@@ -434,10 +429,6 @@ trial
     .trial__price {
         font-size: 2.0rem;
     }
-
-    .trial__txt {
-        display: block;
-    }
 } /* px 769px */
 
 /* =========================
@@ -460,7 +451,7 @@ farmer
         'Shippori Mincho',
         Arial, 
         sans-serif;
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     color: #fff;
     line-height: 1.45;
     margin-bottom: 22px;
@@ -711,7 +702,7 @@ voice
         'Shippori Mincho',
         Arial, 
         sans-serif;
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     color: #fff;
     line-height: 1.45;
     margin-bottom: 22px;
@@ -863,7 +854,7 @@ Q&A
         'Shippori Mincho',
         Arial, 
         sans-serif;
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     color: #fff;
     line-height: 1.45;
     margin-bottom: 22px;
@@ -934,7 +925,7 @@ quality
         'Shippori Mincho',
         Arial, 
         sans-serif;
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     line-height: 1.45;
     margin-bottom: 60px;
 }
@@ -944,13 +935,12 @@ quality
         'Shippori Mincho',
         Arial, 
         sans-serif;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     line-height: 1.5;
     margin-bottom: 60px;
 }
 
 .quality__content{
-    padding: 0 32px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -970,7 +960,7 @@ quality
         'Shippori Mincho',
         Arial, 
         sans-serif;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     color: #000;
     line-height: 1.5;
     margin-bottom: 60px;
@@ -993,7 +983,7 @@ quality
         'Shippori Mincho',
         Arial, 
         sans-serif;
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     color: #fff;
     line-height: 1.45;
     margin-bottom: 22px;
